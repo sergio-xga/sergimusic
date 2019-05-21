@@ -18,7 +18,7 @@
   //-   </ul>
   //- </div>
   #app
-    img(src='./assets/logo.png')
+    img(src='https://sergio-xga.github.io/sergimusic/dist/logo.png')
     h1 SergiMusic
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
